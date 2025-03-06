@@ -6,6 +6,13 @@ public class Character implements Comparable<Character>{
     private String name;
     private Abilities abilities;
     private Double turn_res_time;
+
+    public Character(String name, Abilities abilities) {
+    }
+    public void turn() throws InterruptedException {
+        wait();
+    }
+
     public int compareTo(Character c) {
         return this.turn_res_time.compareTo(c.getTurn_res_time());
     }

@@ -8,6 +8,9 @@ public class Abilities {
     private String CriticalRate;
     private String CriticalDamageRate;
 
+    public Abilities(String number, String number1, String number2, String number3, String number4, String number5) {
+    }
+
     public String getAttack() {
         return attack;
     }
